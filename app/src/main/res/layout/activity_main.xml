@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -58,34 +59,173 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.5"
-            android:contentDescription="@string/tutorial_title" />
+            android:contentDescription="@string/tutorial_title"
+            tools:visibility="gone"/>
 
         <TextView
             android:id="@+id/timeLabel"
+            style="@style/TimerStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
             android:ellipsize="none"
             android:gravity="center"
             android:onClick="onStartButtonClick"
-            android:singleLine="true"
-            style="@style/TimerStyle"
             android:paddingTop="32dp"
-            android:paddingBottom="32dp"
-
+            android:paddingBottom="16dp"
+            android:singleLine="true"
             android:textSize="85sp"
-            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/control_buttons"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:text="25:00" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/control_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.45" />
+            app:layout_constraintTop_toBottomOf="@+id/timeLabel"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp">
+
+            <FrameLayout
+                android:id="@+id/control_play_pause"
+                android:layout_width="@dimen/control_item_size"
+                android:layout_height="@dimen/control_item_size"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/control_add_one_minute"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:id="@+id/control_play_pause_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/labels"
+                    android:src="@drawable/ic_control_start" />
+
+                <View
+                    android:layout_width="@dimen/control_item_ripple_size"
+                    android:layout_height="@dimen/control_item_ripple_size"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:duplicateParentState="true" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/control_add_one_minute"
+                android:layout_width="@dimen/control_item_size"
+                android:layout_height="@dimen/control_item_size"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/control_skip"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toEndOf="@+id/control_play_pause">
+
+                <ImageView
+                    android:id="@+id/control_add_one_minute_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/labels"
+                    android:src="@drawable/ic_control_add_one_minute" />
+
+                <View
+                    android:layout_width="@dimen/control_item_ripple_size"
+                    android:layout_height="@dimen/control_item_ripple_size"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:duplicateParentState="true" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/control_skip"
+                android:layout_width="@dimen/control_item_size"
+                android:layout_height="@dimen/control_item_size"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/control_stop"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toEndOf="@+id/control_add_one_minute">
+
+                <ImageView
+                    android:id="@+id/control_skip_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/labels"
+                    android:src="@drawable/ic_control_skip" />
+
+                <View
+                    android:layout_width="@dimen/control_item_ripple_size"
+                    android:layout_height="@dimen/control_item_ripple_size"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:duplicateParentState="true" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/control_stop"
+                android:layout_width="@dimen/control_item_size"
+                android:layout_height="@dimen/control_item_size"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toEndOf="@+id/control_skip">
+
+                <ImageView
+                    android:id="@+id/control_stop_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/labels"
+                    android:src="@drawable/ic_control_stop" />
+
+                <View
+                    android:layout_width="@dimen/control_item_ripple_size"
+                    android:layout_height="@dimen/control_item_ripple_size"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:duplicateParentState="true" />
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <View
             android:id="@+id/blackCover"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/black"
-            android:visibility="visible">
+            android:visibility="visible"
+            tools:visibility="gone">
         </View>
 
         <View
