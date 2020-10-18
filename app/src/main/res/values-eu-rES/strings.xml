@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Ukitu tenporizadorea hasteko eta pausatzeko</string>
     <string name="tutorial_swipe_left">Pasatu hatza ezkerrerantz edo eskubirantz uneko saioa saltatzeko</string>
     <string name="tutorial_swipe_up">Pasatu hatza gorantz minutu bat gehitzeko</string>
-    <string name="tutorial_swipe_down">Pasatu hatza beherantz tenporizadorean gelditzeko</string>
     <string name="tutorial_archive_label">Etiketa bat artxibatu duzu. Ez da ikusgai egongo selekzioan edo estatistiketan.</string>
     <string name="intro_avoid_distractions">"Distrakzioak saihestu"</string>
     <string name="intro_avoid_distractions_description">"Zure lanarekin jarraitu, aplikazioak kudeatuko dituen saio programatuak erabiliz."</string>

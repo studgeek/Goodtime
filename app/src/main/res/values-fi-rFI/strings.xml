@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Kosketa ajastinta aloittaaksesi ja tauottaaksesi</string>
     <string name="tutorial_swipe_left">Pyyhkäise vasemmalle tai oikealle ohittaaksesi nykyisen istunnon</string>
     <string name="tutorial_swipe_up">Pyyhkäise ylöspäin lisätäksesi toisen minuutin</string>
-    <string name="tutorial_swipe_down">Pyyhkäise alas pysäytteeksesi ajastimen</string>
     <string name="tutorial_archive_label">Olet vain arkistoinut tarran. Se ei ole näkyvissä valinnassa tai tilastoinnissa.</string>
     <string name="intro_avoid_distractions">"Vältä harhautuksia"</string>
     <string name="intro_avoid_distractions_description">"Pysy kärryillä työssäsi käyttämällä tämän sovelluksen ajoittamia istuntoja."</string>

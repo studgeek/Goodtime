@@ -102,6 +102,9 @@ public class TimerService extends LifecycleService {
             case Constants.ACTION.ADD_SECONDS:
                 onAdd60Seconds();
                 break;
+            case Constants.ACTION.REMOVE_SECONDS:
+                onRemove60Seconds();
+                break;
             case Constants.ACTION.SKIP:
                 onSkipEvent();
                 break;
@@ -243,12 +246,22 @@ public class TimerService extends LifecycleService {
 
     private void onAdd60Seconds() {
         Log.d(TAG, TimerService.this.hashCode() + " onAdd60Seconds ");
-        PreferenceHelper.increment60SecondsCounter();
+        PreferenceHelper.incrementAdd60SecondsCounter();
         if (getSessionManager().getCurrentSession().getTimerState().getValue() == TimerState.INACTIVE) {
             startForeground(GOODTIME_NOTIFICATION_ID, mNotificationHelper.getInProgressBuilder(
                     getSessionManager().getCurrentSession()).build());
         }
         getSessionManager().add60Seconds();
+    }
+
+    private void onRemove60Seconds() {
+        Log.d(TAG, TimerService.this.hashCode() + " onRemove60Seconds ");
+        PreferenceHelper.incrementRemove60SecondsCounter();
+        if (getSessionManager().getCurrentSession().getTimerState().getValue() == TimerState.INACTIVE) {
+            startForeground(GOODTIME_NOTIFICATION_ID, mNotificationHelper.getInProgressBuilder(
+                getSessionManager().getCurrentSession()).build());
+        }
+        getSessionManager().remove60Seconds();
     }
 
     private void onSkipEvent() {

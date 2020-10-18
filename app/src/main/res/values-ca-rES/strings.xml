@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Toqueu el temporitzador per iniciar i pausar</string>
     <string name="tutorial_swipe_left">Desplaceu-vos cap a l\'esquerra o cap a la dreta per ometre la sessió actual</string>
     <string name="tutorial_swipe_up">Feu lliscar el dit cap a enrere per afegir un minut més</string>
-    <string name="tutorial_swipe_down">Desplaceu-vos cap avall al temporitzador per aturar</string>
     <string name="tutorial_archive_label">Acabeu d\'arxivar una etiqueta. No serà visible per a la selecció ni les estadístiques.</string>
     <string name="intro_avoid_distractions">"Eviteu distraccions"</string>
     <string name="intro_avoid_distractions_description">"Fes la feina de manera productiva utilitzant sessions temporitzades administrades per l'aplicació."</string>

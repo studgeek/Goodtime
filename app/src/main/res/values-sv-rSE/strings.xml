@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Tryck på timern för att starta och pausa</string>
     <string name="tutorial_swipe_left">Dra åt vänster eller höger för att hoppa över den aktuella sessionen</string>
     <string name="tutorial_swipe_up">Dra upp för att lägga till en minut</string>
-    <string name="tutorial_swipe_down">Dra ner på timern för att stoppa</string>
     <string name="tutorial_archive_label">Du arkiverade precis en etikett. Det kommer inte att vara synligt för urval eller statistik.</string>
     <string name="intro_avoid_distractions">"Undvik distraktioner"</string>
     <string name="intro_avoid_distractions_description">"Behåll fokus på ditt arbete med hjälp av tidsbestämda sessioner."</string>

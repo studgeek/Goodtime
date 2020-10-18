@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Toque el temporizador para iniciar y pausar</string>
     <string name="tutorial_swipe_left">Deslizar hacia izquierda o derecha para saltar la sesión actual</string>
     <string name="tutorial_swipe_up">Deslizar hacia arriba para añadir un minuto más</string>
-    <string name="tutorial_swipe_down">Deslice hacia abajo el temporizador para detener</string>
     <string name="tutorial_archive_label">Acabas de archivar una etiqueta. No será visible para la selección o estadísticas.</string>
     <string name="intro_avoid_distractions">"Evitar distracciones"</string>
     <string name="intro_avoid_distractions_description">"Mantén tu trabajo en buen camino usando sesiones de tiempo manejadas por la app."</string>

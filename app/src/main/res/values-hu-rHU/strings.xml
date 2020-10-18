@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Érintsd meg az időzítőt az elindításhoz és szüneteltetéshez</string>
     <string name="tutorial_swipe_left">Húzd balra vagy jobbra az aktuális munkamenet átugrásához</string>
     <string name="tutorial_swipe_up">Húzd felfelé, hogy még egy percet adj az időzítőhöz</string>
-    <string name="tutorial_swipe_down">A leállításhoz húzd le az időzítőt</string>
     <string name="tutorial_archive_label">Archiváltál egy címkét. Nem lesz kiválasztható vagy látható a statisztikában.</string>
     <string name="intro_avoid_distractions">"Kerüld el a zavaró hatásokat"</string>
     <string name="intro_avoid_distractions_description">"Tartsd sínen a munkád az alkalmazásban időzített szakaszokkal."</string>

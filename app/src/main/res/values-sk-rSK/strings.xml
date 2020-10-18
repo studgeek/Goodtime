@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Poklepaním na časovač spustite a pozastavte</string>
     <string name="tutorial_swipe_left">Posunutím prstom doľava alebo doprava preskočte aktuálnu reláciu</string>
     <string name="tutorial_swipe_up">Prejdite prstom nahor a pridajte ešte jednu minútu</string>
-    <string name="tutorial_swipe_down">Ak chcete zastaviť, prejdite prstom na časovač</string>
     <string name="tutorial_archive_label">Práve ste archivovali štítok. Nebude viditeľný pre výber ani štatistiku.</string>
     <string name="intro_avoid_distractions">"Vyhni sa vyrušovaniu"</string>
     <string name="intro_avoid_distractions_description">"Ustráž svoju prácu prostredníctvom načasovaných činností v tejto aplikácii."</string>

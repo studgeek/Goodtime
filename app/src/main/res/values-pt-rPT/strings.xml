@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Toque no temporizador para iniciar e pausar</string>
     <string name="tutorial_swipe_left">Deslize para a esquerda ou para a direita para dispensar a sessão atual</string>
     <string name="tutorial_swipe_up">Deslize para cima para adicionar mais um minuto</string>
-    <string name="tutorial_swipe_down">Deslize para baixo no temporizador para parar</string>
     <string name="tutorial_archive_label">Arquivou uma etiqueta. Ela não será visível para seleção ou estatísticas.</string>
     <string name="intro_avoid_distractions">"Evite distrações"</string>
     <string name="intro_avoid_distractions_description">"Mantenha o seu trabalho sobre controle usando sessões temporizadas pela app."</string>

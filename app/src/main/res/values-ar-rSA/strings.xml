@@ -83,7 +83,6 @@
     <string name="tutorial_tap">اضغط على الموقت لبدء وقفة</string>
     <string name="tutorial_swipe_left">اسحب إلى اليسار أو اليمين لتخطي الجلسة الحالية</string>
     <string name="tutorial_swipe_up">اسحب لأعلى لإضافة دقيقة أخرى</string>
-    <string name="tutorial_swipe_down">اسحب لأسفل على المؤقت للتوقف</string>
     <string name="tutorial_archive_label">أنت فقط أرشفة تسمية. لن يكون مرئيًا للاختيار أو الإحصائيات.</string>
     <string name="intro_avoid_distractions">"تجنب التشتيت"</string>
     <string name="intro_avoid_distractions_description">"الحفاظ على عملك على المسار الصحيح باستخدام جلسات توقيت التعامل معها من قبل التطبيق."</string>

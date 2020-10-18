@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Appuyez sur la minuterie pour démarrer et mettre en pause</string>
     <string name="tutorial_swipe_left">Glisser vers la gauche ou la droite pour sauter la session en cours</string>
     <string name="tutorial_swipe_up">Glisser vers le haut pour ajouter une minute de plus</string>
-    <string name="tutorial_swipe_down">Glisser vers le bas sur la minuterie pour l\'arrêter</string>
     <string name="tutorial_archive_label">Vous venez d\'archiver une étiquette. Elle ne sera pas visible pour la sélection ou les statistiques.</string>
     <string name="intro_avoid_distractions">"Évitez les distractions"</string>
     <string name="intro_avoid_distractions_description">"Restez concentré sur votre travail en utilisant des sessions chronométrées gérées par l'application."</string>

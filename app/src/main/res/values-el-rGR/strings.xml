@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Πατήστε το χρονόμετρο να ξεκινήσετε και να διακόψετε</string>
     <string name="tutorial_swipe_left">Σαρώστε προς τα αριστερά ή δεξιά για να παρακάμψετε την τρέχουσα περίοδο λειτουργίας</string>
     <string name="tutorial_swipe_up">Σαρώστε προς τα επάνω για να προσθέσετε ένα λεπτό ακόμη</string>
-    <string name="tutorial_swipe_down">Σαρώστε προς τα κάτω το χρονόμετρο να σταματήσει</string>
     <string name="tutorial_archive_label">Μόλις αρχειοθετήσατε μια ετικέτα. Δεν θα είναι ορατό για επιλογή ή στατιστικά στοιχεία.</string>
     <string name="intro_avoid_distractions">"Απόφυγε τους αντιπερισπασμούς"</string>
     <string name="intro_avoid_distractions_description">"Διατήρησε τον ειρμό της δουλειάς σου χρησιμοποιώντας χρονομετρημένες συνεδρίες που διαχειρίζονται από την εφαρμογή."</string>

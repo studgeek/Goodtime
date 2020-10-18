@@ -83,7 +83,6 @@
     <string name="tutorial_tap">點按計時器以啟動和暫停</string>
     <string name="tutorial_swipe_left">向左或向右滑動以跳過當前工作</string>
     <string name="tutorial_swipe_up">向上滑動可再添加一分鐘</string>
-    <string name="tutorial_swipe_down">向下滑動計時器重設</string>
     <string name="tutorial_archive_label">您剛剛存檔了分類。 選擇或統計信息將不顯示。</string>
     <string name="intro_avoid_distractions">"避開擾人事物"</string>
     <string name="intro_avoid_distractions_description">"藉由計時器來維持你的工作水準"</string>

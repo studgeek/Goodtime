@@ -75,6 +75,7 @@ public class PreferenceHelper {
     private static final String SESSIONS_COUNTER          = "pref_sessions_counter";
     private static final String SHOW_CURRENT_LABEL        = "pref_show_label";
     private static final String ADD_60_SECONDS_COUNTER    = "pref_add_60_seconds_times";
+    private static final String REMOVE_60_SECONDS_COUNTER    = "pref_remove_60_seconds_times";
 
     private static final String UNSAVED_PROFILE_ACTIVE = "pref_custom_pref_active";
 
@@ -357,9 +358,26 @@ public class PreferenceHelper {
                 .putInt(ADD_60_SECONDS_COUNTER, 0).apply();
     }
 
-    public static void increment60SecondsCounter() {
+    public static void incrementAdd60SecondsCounter() {
         GoodtimeApplication.getPrivatePreferences().edit()
                 .putInt(ADD_60_SECONDS_COUNTER, getAdd60SecondsCounter() + 1).apply();
+    }
+
+    /**
+     * @return the number of times the current session timer was decreased with "Remove 60 seconds"
+     */
+    public static int getRemove60SecondsCounter() {
+        return GoodtimeApplication.getPrivatePreferences().getInt(REMOVE_60_SECONDS_COUNTER, 0);
+    }
+
+    public static void resetRemove60SecondsCounter() {
+        GoodtimeApplication.getPrivatePreferences().edit()
+            .putInt(REMOVE_60_SECONDS_COUNTER, 0).apply();
+    }
+
+    public static void incrementRemove60SecondsCounter() {
+        GoodtimeApplication.getPrivatePreferences().edit()
+            .putInt(REMOVE_60_SECONDS_COUNTER, getRemove60SecondsCounter() + 1).apply();
     }
 
     public static void setPro(boolean value) {

@@ -83,7 +83,6 @@
     <string name="tutorial_tap">টাইমার বিরতি শুরু করতে ট্যাপ করুন</string>
     <string name="tutorial_swipe_left">বামে বা ডানে সেশনের এড়িয়ে যেতে সোয়াইপ করুন</string>
     <string name="tutorial_swipe_up">উপরে আরও এক মিনিট যোগ করতে সোয়াইপ করুন</string>
-    <string name="tutorial_swipe_down">এ সময়-গণক বন্ধ করতে নীচে সোয়াইপ করুন</string>
     <string name="tutorial_archive_label">আপনি সবেমাত্র একটি লেবেল সংরক্ষণাগারভুক্ত করেছেন। এটি নির্বাচন বা পরিসংখ্যানের জন্য দৃশ্যমান হবে না।.</string>
     <string name="intro_avoid_distractions">"বিক্ষিপ্ততা পরিহার"</string>
     <string name="intro_avoid_distractions_description">"কাজের গতিবিধি এই অ্যাপের সাহায্যে ঠিক রাখুন."</string>

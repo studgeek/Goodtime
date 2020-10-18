@@ -83,7 +83,6 @@
     <string name="tutorial_tap">แตะตัวจับเวลาเพื่อเริ่มและหยุดชั่วคราว</string>
     <string name="tutorial_swipe_left">ปัดไปทางซ้ายหรือขวาเพื่อข้ามเซสชันปัจจุบัน</string>
     <string name="tutorial_swipe_up">ปัดขึ้นเพื่อเพิ่มอีกหนึ่งนาที</string>
-    <string name="tutorial_swipe_down">ปัดลงบนตัวจับเวลาเพื่อหยุด</string>
     <string name="tutorial_archive_label">คุณเพิ่งเก็บป้ายกำกับไว้ จะไม่ปรากฏให้เห็นสำหรับการเลือกหรือสถิติ</string>
     <string name="intro_avoid_distractions">"หลีกเลี่ยงการรบกวน"</string>
     <string name="intro_avoid_distractions_description">"จัดการเวลางานของคุณโดยใช้ตัวกำหนดค่าระยะเวลาของเรา"</string>

@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Bakstelėkite laikmatį, kad pradėtumėte ir pristabdytumėte</string>
     <string name="tutorial_swipe_left">Braukite kairėn arba dešinėn pereiti per dabartinį seansą</string>
     <string name="tutorial_swipe_up">Braukite į viršų pridėti daugiau minutę</string>
-    <string name="tutorial_swipe_down">Braukite žemyn Norėdami sustabdyti laikmatį</string>
     <string name="tutorial_archive_label">Jūs tiesiog archyvavote etiketę. Tai nebus matoma nei atrankai, nei statistikai.</string>
     <string name="intro_avoid_distractions">"Vengti pašalinių trigdžių"</string>
     <string name="intro_avoid_distractions_description">"Irbkite produktyviai naudodami programėlės dotuotas sesijas."</string>

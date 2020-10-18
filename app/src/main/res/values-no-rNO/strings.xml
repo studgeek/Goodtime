@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Trykk på timer for å starte og pause</string>
     <string name="tutorial_swipe_left">Dra til venstre eller høyre hoppe over gjeldende økt</string>
     <string name="tutorial_swipe_up">Dra opp til en mer minutt</string>
-    <string name="tutorial_swipe_down">Sveip ned på timeren for å stoppe</string>
     <string name="tutorial_archive_label">Du arkiverte en etikett. Det vil ikke være synlig for utvalg eller statistikk.</string>
     <string name="intro_avoid_distractions">"Unngå distraksjoner"</string>
     <string name="intro_avoid_distractions_description">"Hold kontroll over arbeidet ditt med tids økter kontrollert av appen."</string>

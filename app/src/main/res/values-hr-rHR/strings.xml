@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Za početak i pauziranje taknite tajmer</string>
     <string name="tutorial_swipe_left">Prijeđite prstom lijevo ili desno da biste preskočili trenutnu sesiju</string>
     <string name="tutorial_swipe_up">Prijeđite prstom prema gore da biste dodali još jednu minutu</string>
-    <string name="tutorial_swipe_down">Prijeđite prstom prema dolje na timeru da biste zaustavili</string>
     <string name="tutorial_archive_label">Upravo ste arhivirali etiketu. Neće biti vidljiv za odabir ili statistiku.</string>
     <string name="intro_avoid_distractions">"Riješi se ometanja sa strane"</string>
     <string name="intro_avoid_distractions_description">"Podigni razinu produktivnosti koristeći vremenski ograničene radne obroke."</string>

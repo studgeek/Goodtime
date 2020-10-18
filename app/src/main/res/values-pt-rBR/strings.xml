@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Toque o temporizador para iniciar e pausar</string>
     <string name="tutorial_swipe_left">Deslize para a esquerda ou direita para pular a sessão atual</string>
     <string name="tutorial_swipe_up">Deslize para cima para adicionar mais um minuto</string>
-    <string name="tutorial_swipe_down">Deslize para baixo sobre o temporizador para parar</string>
     <string name="tutorial_archive_label">Você acabou de arquivar um rótulo. Não estará visível para seleção ou estatísticas.</string>
     <string name="intro_avoid_distractions">"Evitar distrações"</string>
     <string name="intro_avoid_distractions_description">"Mantenha seu trabalho na linha usando sessões cronometradas pelo app."</string>

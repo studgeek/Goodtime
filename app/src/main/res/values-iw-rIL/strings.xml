@@ -83,7 +83,6 @@
     <string name="tutorial_tap">הקש כדי להפעיל ולהשהות את שעון-העצר</string>
     <string name="tutorial_swipe_left">לסחוב שמאלה או ימינה כדי לדלג על ההפעלה הנוכחית</string>
     <string name="tutorial_swipe_up">לסחוב למעלה כדי להוסיף עוד דקה אחת</string>
-    <string name="tutorial_swipe_down">נשמטים למטה על טיימר להפסיק</string>
     <string name="tutorial_archive_label">פשוט ארכנת תווית. זה לא יהיה גלוי לבחירה או לסטטיסטיקה.</string>
     <string name="intro_avoid_distractions">"המנעו מהסחות דעת"</string>
     <string name="intro_avoid_distractions_description">"תשאירו את העבודה שלכם על המסלול בעזרת יחידות מתוזמנות המטופלות בידי האפליקציה."</string>

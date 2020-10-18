@@ -43,6 +43,7 @@ import static com.apps.adrcotfas.goodtime.Util.Constants.SESSION_TYPE;
 public class CurrentSessionManager extends ContextWrapper{
 
     private static final String TAG = CurrentSessionManager.class.getSimpleName();
+    private static final long sixtySecondsInMillis = TimeUnit.SECONDS.toMillis(60);
 
     private AppCountDownTimer mTimer;
     private final CurrentSession mCurrentSession;
@@ -206,19 +207,30 @@ public class CurrentSessionManager extends ContextWrapper{
     public void add60Seconds() {
         Log.v(TAG, "add60Seconds");
 
-        final long extra = 60000; //TimeUnit.SECONDS.toMillis(60);
+        long newRemaining = Math.min(mRemaining + sixtySecondsInMillis,
+            TimeUnit.MINUTES.toMillis(240));
+        this.updateRemaining(newRemaining);
+    }
 
+    public void remove60Seconds() {
+        Log.v(TAG, "remove60Seconds");
+
+        long newRemaining = Math.max(mRemaining - sixtySecondsInMillis, sixtySecondsInMillis);
+        this.updateRemaining(newRemaining);
+    }
+
+    public void updateRemaining(long newRemaining) {
         cancelAlarm();
         mTimer.cancel();
 
-        mRemaining = Math.min(mRemaining + extra, TimeUnit.MINUTES.toMillis(240));
+        mRemaining = newRemaining;
 
         mTimer = new AppCountDownTimer(mRemaining);
 
         if (mCurrentSession.getTimerState().getValue() != TimerState.PAUSED) {
             scheduleAlarm(mCurrentSession.getSessionType().getValue(), mRemaining,
-                    PreferenceHelper.oneMinuteBeforeNotificationEnabled()
-                            && mRemaining > TimeUnit.MINUTES.toMillis(1));
+                PreferenceHelper.oneMinuteBeforeNotificationEnabled()
+                    && mRemaining > TimeUnit.MINUTES.toMillis(1));
             mTimer.start();
             mCurrentSession.setTimerState(TimerState.ACTIVE);
         } else {

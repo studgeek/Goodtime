@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Tik op de timer om te starten en te pauzeren</string>
     <string name="tutorial_swipe_left">Veeg naar links of rechts om de huidige sessie over te slaan</string>
     <string name="tutorial_swipe_up">Veeg omhoog om nog een minuut toe te voegen</string>
-    <string name="tutorial_swipe_down">Veeg naar beneden over de timer om te stoppen</string>
     <string name="tutorial_archive_label">Je hebt zojuist een label gearchiveerd. Deze is niet meer zichtbaar voor selectie of voor statistieken.</string>
     <string name="intro_avoid_distractions">"Vermijd afleidingen"</string>
     <string name="intro_avoid_distractions_description">"Houd je werk op schema door de app sessies te laten timen."</string>

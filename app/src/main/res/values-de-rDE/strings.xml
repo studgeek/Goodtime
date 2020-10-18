@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Tippen Sie auf den Timer, um zu starten oder anzuhalten</string>
     <string name="tutorial_swipe_left">Wischen Sie nach links oder rechts, um die aktuelle Sitzung zu überspringen</string>
     <string name="tutorial_swipe_up">Wischen Sie nach oben, um eine weitere Minute hinzuzufügen</string>
-    <string name="tutorial_swipe_down">Wischen Sie den Timer nach unten, um zu stoppen</string>
     <string name="tutorial_archive_label">Sie haben gerade ein Label archiviert. Es wird nicht für die Auswahl oder Statistik sichtbar sein.</string>
     <string name="intro_avoid_distractions">"Vermeide Ablenkungen"</string>
     <string name="intro_avoid_distractions_description">"Konzentriere dich auf deine Arbeit mit automatisch verwalteten Sessions."</string>

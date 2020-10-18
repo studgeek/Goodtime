@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Pieskarieties, lai sāktu un apturētu taimeri</string>
     <string name="tutorial_swipe_left">Sist pa kreisi vai pa labi, lai pārietu no pašreizējās sesijas</string>
     <string name="tutorial_swipe_up">Velciet uz augšu, lai pievienotu vēl vienu minūti</string>
-    <string name="tutorial_swipe_down">Lai apturētu, velciet uz leju taimer</string>
     <string name="tutorial_archive_label">Jūs tikko arhivējāt etiķeti. Tas nebūs redzams atlasē vai statistikā.</string>
     <string name="intro_avoid_distractions">"Izvairies no uzmanības novēršanas"</string>
     <string name="intro_avoid_distractions_description">"Seko sava darba gaitai izmantojot ierobežotas laika sesijas ko apstrādā lietotne."</string>

@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Dotknij licznika, aby rozpocząć i wstrzymać</string>
     <string name="tutorial_swipe_left">Przesuń palcem w lewo lub w prawo, aby pominąć bieżącą sesję</string>
     <string name="tutorial_swipe_up">Przesuń w górę, aby dodać jeszcze jedną minutę</string>
-    <string name="tutorial_swipe_down">Przesuń palcem w dół po minutniku, aby go zatrzymać</string>
     <string name="tutorial_archive_label">Właśnie zarchiwizowałeś etykietę. Nie będzie widoczny dla selekcji ani statystyk.</string>
     <string name="intro_avoid_distractions">"Unikaj rozproszeń"</string>
     <string name="intro_avoid_distractions_description">"Skup się na pracy dzięki sesjom w aplikacji."</string>

@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Toca o temporizador para comezar e facer unha pausa</string>
     <string name="tutorial_swipe_left">Esvara o dedo á esquerda ou á dereita para saltar a sesión actual</string>
     <string name="tutorial_swipe_up">Esvara o dedo cara arriba para engadir un minuto máis</string>
-    <string name="tutorial_swipe_down">Esvara o dedo cara abaixo para parar o cronómetro</string>
     <string name="tutorial_archive_label">Arquivaches unha etiqueta. Non será visíbel para a selección nin para as estatísticas.</string>
     <string name="intro_avoid_distractions">"Evita as distraccións"</string>
     <string name="intro_avoid_distractions_description">"Segue o teu ritmo de traballo usando sesións cronometradas pola aplicación."</string>

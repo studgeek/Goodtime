@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Торкніться таймеру для початку і призупинення</string>
     <string name="tutorial_swipe_left">Проведіть ліворуч або праворуч, щоб пропустити поточну сесію</string>
     <string name="tutorial_swipe_up">Проведіть догори, щоб додати ще одну хвилину</string>
-    <string name="tutorial_swipe_down">Проведіть вниз, щоб зупинити</string>
     <string name="tutorial_archive_label">Ви тільки заархівували ярлик. Він не буде видно для вибору чи статистики.</string>
     <string name="intro_avoid_distractions">"Уникайте відволікань"</string>
     <string name="intro_avoid_distractions_description">"Відстежуйте свою роботу використовуючи часові сесії які керуються цим додатком"</string>

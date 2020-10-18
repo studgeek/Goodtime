@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Apasă cronometrul pentru a începe și pentru a pune pauză</string>
     <string name="tutorial_swipe_left">Glisați cu degetul spre stânga sau dreapta pentru a sări peste sesiunea curentă</string>
     <string name="tutorial_swipe_up">Glisați cu degetul în sus pentru a adăuga încă un minut</string>
-    <string name="tutorial_swipe_down">Glisați cu degetul în jos pe cronometru, pentru a-l opri</string>
     <string name="tutorial_archive_label">Tocmai ai arhivat o etichetă. Nu va fi disponibilă pentru selecție sau statistici.</string>
     <string name="intro_avoid_distractions">"Evită distragerile"</string>
     <string name="intro_avoid_distractions_description">"Ține evidența muncii tale folosind sesiunile de lucru cronometrate de aplicație."</string>

@@ -83,7 +83,6 @@
     <string name="tutorial_tap">点击开始计时或者暂停计时</string>
     <string name="tutorial_swipe_left">向左或者右滑动以跳过当前会话</string>
     <string name="tutorial_swipe_up">向上滑动来增加一分钟</string>
-    <string name="tutorial_swipe_down">向下滑动计时器来停止计时</string>
     <string name="tutorial_archive_label">你刚刚存档了一个标签。它不会被选择或在统计中可见。</string>
     <string name="intro_avoid_distractions">"避免打扰"</string>
     <string name="intro_avoid_distractions_description">"使用本app来记录工作情况，可以让您的工作效率更高"</string>

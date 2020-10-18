@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Zamanlayıcıyı başlatmak ve duraklatmak için dokunun</string>
     <string name="tutorial_swipe_left">Geçerli oturumu atlamak için sağa ya da sola kaydırın</string>
     <string name="tutorial_swipe_up">Bir dakika daha eklemek için yukarı kaydırın</string>
-    <string name="tutorial_swipe_down">Durdurmak için zamanlayıcıdan aşağı doğru kaydırın</string>
     <string name="tutorial_archive_label">Bir etiketi arşivlediniz. Seçim veya istatistikler için görünmez.</string>
     <string name="intro_avoid_distractions">"Dikkat dağıtan şeyleri engelle"</string>
     <string name="intro_avoid_distractions_description">"Uygulamanın gerçekleştirdiği zamanlanmış oturumları kullanarak çalışmalarınızı devam ettirin."</string>

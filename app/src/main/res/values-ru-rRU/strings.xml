@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Нажмите на таймер, чтобы начать и приостановить</string>
     <string name="tutorial_swipe_left">Проведите влево или вправо, чтобы пропустить текущий сеанс</string>
     <string name="tutorial_swipe_up">Проведите пальцем вверх, чтобы добавить еще одну минуту</string>
-    <string name="tutorial_swipe_down">Проведите пальцем вниз по таймеру, чтобы остановить</string>
     <string name="tutorial_archive_label">Вы только что архивировали метку. Она не будет доступна для выбора и не будет видна в статистике.</string>
     <string name="intro_avoid_distractions">"Не отвлекайтесь"</string>
     <string name="intro_avoid_distractions_description">"Выполняйте намеченные задачи, используя управляемые приложением временные сессии."</string>

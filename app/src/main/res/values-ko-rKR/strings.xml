@@ -83,7 +83,6 @@
     <string name="tutorial_tap">타이머를 탭하면 시작하고 일시중지합니다</string>
     <string name="tutorial_swipe_left">현재 세션을 넘기기 위해서 왼쪽이나 오른쪽으로 스와이프하세요</string>
     <string name="tutorial_swipe_up">위로 스와이프하면 1분을 추가합니다</string>
-    <string name="tutorial_swipe_down">타이머를 아래로 스와이프하여 중지합니다</string>
     <string name="tutorial_archive_label">라벨을 보관했습니다. 선택 또는 통계에는 표시되지 않습니다.</string>
     <string name="intro_avoid_distractions">"방해받지 마세요"</string>
     <string name="intro_avoid_distractions_description">"앱에서 관리되는 세션들을 사용하여 작업을 꾸준히 유지하세요"</string>

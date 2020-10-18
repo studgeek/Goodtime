@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Premere il contaminuti per iniziare o per fermarsi</string>
     <string name="tutorial_swipe_left">Scorrere verso sinistra o destra per saltare la sessione corrente</string>
     <string name="tutorial_swipe_up">Scorri verso l\'alto per aggiungere un altro minuto</string>
-    <string name="tutorial_swipe_down">Scorri verso il basso sul contaminuti per interrompere</string>
     <string name="tutorial_archive_label">Hai appena archiviato un\'etichetta. Non sarà visibile per la selezione o le statistiche.</string>
     <string name="intro_avoid_distractions">"Evita distrazioni"</string>
     <string name="intro_avoid_distractions_description">"Rimani concentrato sul tuo lavoro usando sessioni cronometrate gestite dell'app."</string>

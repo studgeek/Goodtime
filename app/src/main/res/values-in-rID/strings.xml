@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Ketuk timer untuk memulai dan menjeda</string>
     <string name="tutorial_swipe_left">Menggesek kiri atau kanan untuk melewatkan sesi saat ini</string>
     <string name="tutorial_swipe_up">Gesek ke atas untuk menambahkan satu menit lagi</string>
-    <string name="tutorial_swipe_down">Gesek ke bawah pada timer untuk berhenti</string>
     <string name="tutorial_archive_label">Anda baru saja mengarsipkan label, yang tidak akan terlihat untuk dipilih atau statistik.</string>
     <string name="intro_avoid_distractions">"Hindari gangguan"</string>
     <string name="intro_avoid_distractions_description">"Biarkan pekerjaanmu terekam menggunakan sesi berwaktu yang ditangani oleh aplikasi."</string>

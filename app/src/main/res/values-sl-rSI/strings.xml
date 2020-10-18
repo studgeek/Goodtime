@@ -83,7 +83,6 @@
     <string name="tutorial_tap">Tapnite časovnik za začetek in premor</string>
     <string name="tutorial_swipe_left">Če želite preskočiti trenutno sejo, povlecite levo ali desno</string>
     <string name="tutorial_swipe_up">Povlecite navzgor, da dodate še eno minuto</string>
-    <string name="tutorial_swipe_down">Če želite ustaviti, s prstom povlecite navzdol</string>
     <string name="tutorial_archive_label">Pravkar ste arhivirali etiketo. Ne bo vidno za izbiro ali statistiko.</string>
     <string name="intro_avoid_distractions">"Izogni se motnjam"</string>
     <string name="intro_avoid_distractions_description">"Sledi svojemu delu z uporabo odštevanja delovnih sej, ki jih nudi ta aplikacija."</string>

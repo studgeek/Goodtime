@@ -50,6 +50,7 @@ import com.apps.adrcotfas.goodtime.Settings.reminders.ReminderHelper;
 import com.apps.adrcotfas.goodtime.Statistics.Main.SelectLabelDialog;
 import com.apps.adrcotfas.goodtime.Statistics.SessionViewModel;
 import com.apps.adrcotfas.goodtime.Util.Constants;
+import com.apps.adrcotfas.goodtime.Util.Constants.ACTION;
 import com.apps.adrcotfas.goodtime.Util.IntentWithAction;
 import com.apps.adrcotfas.goodtime.Util.OnSwipeTouchListener;
 import com.apps.adrcotfas.goodtime.Util.ThemeHelper;
@@ -135,7 +136,9 @@ public class TimerActivity
     public void onAdd60SecondsButtonClick() {
         add60Seconds();
     }
-
+    public void onRemove60SecondsButtonClick() {
+        remove60Seconds();
+    }
     private void skip() {
         if (mCurrentSession.getTimerState().getValue() != TimerState.INACTIVE) {
             Intent skipIntent = new IntentWithAction(TimerActivity.this, TimerService.class,
@@ -266,10 +269,15 @@ public class TimerActivity
 
             @Override
             public void onSwipeBottom(View view) {
+                if (mCurrentSession.getTimerState().getValue() != TimerState.INACTIVE) {
+                    onRemove60SecondsButtonClick();
+                }
+                /* TODO(drees): Add alternative stop session gesture (double tap?)
                 onStopSession();
                 if (PreferenceHelper.isScreensaverEnabled()) {
                     recreate();
                 }
+                */
             }
 
             @Override
@@ -622,6 +630,14 @@ public class TimerActivity
         }
     }
 
+    private void remove60Seconds() {
+        Intent stopIntent = new IntentWithAction(TimerActivity.this, TimerService.class, ACTION.REMOVE_SECONDS);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            startForegroundService(stopIntent);
+        } else {
+            startService(stopIntent);
+        }
+    }
     private void showEditLabelDialog() {
         FragmentManager fragmentManager = getSupportFragmentManager();
         SelectLabelDialog.newInstance(this, PreferenceHelper.getCurrentSessionLabel().title, false)

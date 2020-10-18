@@ -83,7 +83,6 @@
     <string name="tutorial_tap">タイマーをタップして開始し、一時停止します</string>
     <string name="tutorial_swipe_left">現在のセッションをスキップするには、左または右にスワイプします</string>
     <string name="tutorial_swipe_up">上にスワイプしてもう1分追加します</string>
-    <string name="tutorial_swipe_down">タイマーを下にスワイプして停止します</string>
     <string name="tutorial_archive_label">ラベルをアーカイブしました。 選択または統計には表示されません。</string>
     <string name="intro_avoid_distractions">"集中を乱されないように"</string>
     <string name="intro_avoid_distractions_description">"アプリを利用した時間制限のあるセッションで仕事を順調に進めましょう。"</string>
